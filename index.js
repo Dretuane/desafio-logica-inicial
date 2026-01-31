@@ -20,14 +20,12 @@ const passos = [
 ];
 // Função para executar os passos
 function executarLavagem() {
-console.log("\\ INICIO");
-passos.forEach((passo, index) = {
-console.log('${index + 1}. ${passo}');
-});
-console.log("\\FIM");
+    console.log("\\ INICIO");
+    passos.forEach((passo, index) => {
+        console.log(`${index + 1}. ${passo}`);
+    });
+    console.log("\\ FIM");
 }
-// Chamando a função
-executarLavagem();
 
 
 
